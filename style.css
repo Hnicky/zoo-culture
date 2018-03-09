@@ -1,0 +1,417 @@
+body{
+background-color: grey;
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: #850000;
+  text-decoration: none:
+}
+
+a:link{
+text-decoration: none;
+}
+
+/* NAV-BAR */
+.navigation1{
+  background: rgba(255,255,255, 0.1);
+  color: white;
+  position: fixed;
+  /* border-bottom: 1px solid #ff0006; */
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation1 ul{
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-left: 20%;
+  padding-right: 50%;
+
+}
+
+.navigation1 li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.navigation1 img{
+  width: 45px;
+  margin-top: -2%;
+  margin-left: 400px;
+}
+
+
+/* BOX 1 */
+#box1{
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/img8.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box1 img{
+  width: 14%;
+  /* margin-left: 1%; */
+}
+
+@keyframes sliderLeft{
+  0%{left: 0%; }
+  20%{left: 0%; }
+  25%{left: -100%; }
+  45%{left: -100%; }
+  50%{left: -200%; }
+  70%{left: -200%; }
+  75%{left: -300%; }
+  95%{left: -300%; }
+  100%{left: -400%; }
+}
+
+#diapo{
+  max-width: 1200px;
+  height: 700px;
+  overflow: hidden;
+  margin-top: -8%;
+  margin-left: 13%;
+  margin-bottom: 5%;
+  border: 30px solid rgba(255,255,255,0.1);
+  /* border-right: 15px solid rgba(255,255,255,0.1); */
+}
+
+#diapo figure{
+  position: relative;
+  width: 500%;
+  -webkit-animation: 30s sliderLeft infinite;
+}
+
+#diapo figure img{
+  width: 20%;
+  float: left;
+}
+
+/* BOX 2 */
+#box2{
+ height: 100vh;
+ width: 100%;
+ background-image: url("img/img9.jpg");
+ background-size: cover;
+ display: table;
+ background-attachment: fixed;
+ text-align: center;
+}
+
+.box2{
+ color: #850000;
+ font-size: 40px;
+ margin-top: 12%;
+ font-size: 50px;
+ font-weight: bolder;
+}
+
+.box2bis{
+ color: white;
+ font-size: 25px;
+ margin-left: 20%;
+ margin-right: 20%;
+
+}
+
+
+#box3{
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/img3bis.jpeg");
+  background-repeat: repeat;
+  background-size: cover;
+  display: table;
+  vertical-align: middle;
+  background-attachment: fixed;
+}
+
+.activ{
+  color: #850000;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.activ img{
+  width: 30%;
+}
+
+.activites{
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.activites img{
+  width: 30%;
+  height: 270px;
+}
+
+.themes a{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  /* padding-left: 12%; */
+  margin-left: 12%;
+}
+
+.cardio{
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* .musculation{
+  background-image: url("img/img10bis.jpg");
+} */
+
+/* BOX 4 */
+#box4{
+ height: 100vh;
+ width: 100%;
+ background-image: url("img/img15bisbis.jpg");
+ background-size: cover;
+ display: table;
+ background-attachment: fixed;
+ text-align: center;
+}
+
+.box4{
+ color: #850000;
+ font-size: 40px;
+ margin-top: 12%;
+ font-size: 50px;
+ font-weight: bolder;
+}
+
+.box4bis{
+ color: white;
+ font-size: 25px;
+ margin-left: 20%;
+ margin-right: 20%;
+
+}
+
+#diapo2{
+  max-width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-left: 30.5%;
+  margin-bottom: 5%;
+  border: 30px solid rgba(255,255,255,0.1);
+  /* border-right: 15px solid rgba(255,255,255,0.1); */
+}
+
+#diapo2 figure{
+  position: relative;
+  width: 500%;
+  -webkit-animation: 10s sliderLeft infinite;
+}
+
+#diapo2 figure img{
+  width: 20%;
+  float: left;
+}
+
+/* BOX 5 */
+#box5{
+ height: 100vh;
+ width: 100%;
+ background-image: url("img/img10bis.jpg");
+ background-size: cover;
+ display: table;
+ background-attachment: fixed;
+ text-align: center;
+}
+
+.box5{
+ color: #850000;
+ font-size: 40px;
+ margin-top: 12%;
+ font-size: 50px;
+ font-weight: bolder;
+}
+
+.box5bis{
+ color: white;
+ font-size: 25px;
+ margin-left: 20%;
+ margin-right: 20%;
+
+}
+
+#diapo3{
+  max-width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-left: 30.5%;
+  margin-bottom: 5%;
+  border: 30px solid rgba(255,255,255,0.1);
+  /* border-right: 15px solid rgba(255,255,255,0.1); */
+}
+
+#diapo3 figure{
+  position: relative;
+  width: 500%;
+  -webkit-animation: 10s sliderLeft infinite;
+}
+
+#diapo3 figure img{
+  width: 20%;
+  height: 400px;
+  float: left;
+}
+
+/* BOX 6 */
+#box6{
+ height: 100vh;
+ width: 100%;
+ background-image: url("img/img12bis.jpg");
+ background-size: cover;
+ display: table;
+ background-attachment: fixed;
+ text-align: center;
+}
+
+.box6bis{
+ color: white;
+ font-size: 25px;
+ margin-left: 20%;
+ margin-right: 20%;
+
+}
+.activ iframe{
+  margin-top: 5%;
+}
+
+/* BOX 7 */
+#box7{
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/img19bis.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.box7{
+  color: #850000;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+
+
+.box7bis{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.picture {
+  display: flex;
+  width: 300px;
+  height: 480px;
+  padding-right: 3%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 481px;
+  width: 301px;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #1e1e26;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* BOX 8 */
+#box8{
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/img11bis.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.box8{
+  color: #850000;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 1%;
+}
+
+.map{
+  margin-top: 3%;
+}
+
+.contact{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 3%;
+  border-bottom: 2px solid #850000;
+}
+
+.reseaux{
+  margin-bottom: 2%;
+}
